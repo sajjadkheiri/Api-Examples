@@ -15,4 +15,4 @@ In this repo, we try to speak about all verieties of Application Programming Int
 
 <br />
 
-**Click on each types and see plenty of information about that**
+**Click on each types and see plenty of informations about that**
