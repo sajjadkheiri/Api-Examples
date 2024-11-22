@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gRPC.FirstSample", "gRPC.FirstSample\gRPC.FirstSample.csproj", "{51E3585D-9647-4C12-9650-A9249C4DF0EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gRPC", "gRPC", "{5A14A2D2-8308-4E65-B3AA-CA8E933B5C4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Restful", "Restful", "{FA35046F-82F8-4A09-99ED-FA6885407096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphQL", "GraphQL", "{D91716FE-D47B-4C5E-BCF4-D93EDFC8BF71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOAP", "SOAP", "{3263F6BD-3243-4629-A5F2-EC7829449E09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebSocket", "WebSocket", "{9F602B48-D929-4C12-8B8D-9FB4875D9AA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E3585D-9647-4C12-9650-A9249C4DF0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E3585D-9647-4C12-9650-A9249C4DF0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E3585D-9647-4C12-9650-A9249C4DF0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E3585D-9647-4C12-9650-A9249C4DF0EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51E3585D-9647-4C12-9650-A9249C4DF0EF} = {5A14A2D2-8308-4E65-B3AA-CA8E933B5C4E}
+	EndGlobalSection
+EndGlobal
