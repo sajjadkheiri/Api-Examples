@@ -1,7 +1,6 @@
 using Google.Protobuf.WellKnownTypes;
 using gRPC.FirstSample.Protos;
 using Grpc.Core;
-using Microsoft.VisualBasic;
 
 namespace gRPC.FirstSample.Services;
 
