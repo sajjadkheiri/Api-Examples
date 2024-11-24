@@ -2,11 +2,11 @@
 
 [Source](https://blog.postman.com/what-is-grpc/)
 
-#### Definition :
+### Definition :
 
 gRPC Trasfers data with binary format with HTTP2
 
-#### What is the difference between RPC and REST
+### What is the difference between RPC and REST
 
 - RPC (Remote procedure call)
 
@@ -16,7 +16,7 @@ gRPC Trasfers data with binary format with HTTP2
 - REST
   - Speak according to the HTTP
 
-#### what is the gRPC channel
+### what is the gRPC channel
 
 - Critical data for initial a channel:
   - Host address
@@ -38,7 +38,7 @@ gRPC Trasfers data with binary format with HTTP2
   - Transent Failure
   - Shutdown
 
-#### How many type of services in gRPC
+### How many type of services in gRPC
 
 - Unary
 
@@ -56,7 +56,7 @@ gRPC Trasfers data with binary format with HTTP2
 
 ![Biderectional streaming](https://techdozo.dev/wp-content/uploads/2023/02/image-1024x520.png.webp)
 
-#### gRPC status
+### gRPC status
 
 gRPC status are different with http status. There are some status of gRPC
 
@@ -78,7 +78,7 @@ gRPC status are different with http status. There are some status of gRPC
 - DATA_LOSS (15)
 - UNAUTHENTICATED (16)
 
-#### What are the advantages and disadvantages of gRPC
+### What are the advantages and disadvantages of gRPC
 
 - Advantages :
 
@@ -110,7 +110,7 @@ gRPC status are different with http status. There are some status of gRPC
 
   - Incompatibility with HTTP/1.1: Since gRPC relies on HTTP/2, legacy systems or networks using HTTP/1.1 may face compatibility issues.
 
-#### What is the Protocol Buffer
+### What is the Protocol Buffer
 
 ProtoBuff file consist of 3 sections
 
@@ -147,7 +147,7 @@ service ServiceName{
 
 3. Message declaration
 
-#### Exception handling
+### Exception handling
 
 You have 2 approaches against exception handling
 
@@ -225,3 +225,10 @@ builder.Services.AddGrpc(config => {
 
 });
 ```
+
+
+### Versioning
+
+### Expose Protobuf
+
+### Client
